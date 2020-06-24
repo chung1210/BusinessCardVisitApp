@@ -41,7 +41,7 @@ class _DetailScreenState extends State<DetailScreen> {
         r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?)*$";
     RegExp regEx = RegExp(pattern);
 
-  String patternSDT = r"^0[0-9\s.-]{9,14}$";
+  String patternSDT = r"^0[0-9\s.-]{9,14}";
    
    // String patternSDT = r'[!@#<>?":_`~;[\]\\|=+)(*&^%\s-]';
     RegExp regExSDT = RegExp(patternSDT);
