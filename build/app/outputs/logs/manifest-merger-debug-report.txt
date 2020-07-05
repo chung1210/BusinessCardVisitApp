@@ -1,13 +1,24 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
-INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
-MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
+INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
+MERGED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
+MERGED from [:contacts_service] D:\CardVisitApp\app\build\contacts_service\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:device_info] D:\CardVisitApp\app\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:get_version] D:\CardVisitApp\app\build\get_version\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:package_info] D:\CardVisitApp\app\build\package_info\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-22:12
+MERGED from [:flutter_plugin_android_lifecycle] D:\CardVisitApp\app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-10:12
+MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-15:12
 MERGED from [:path_provider] D:\CardVisitApp\app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:image_cropper] D:\CardVisitApp\app\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:permission_handler] D:\CardVisitApp\app\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:shared_preferences] D:\CardVisitApp\app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:share] D:\CardVisitApp\app\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\959367868b5c78124a943cd7a9132b4c\firebase-analytics-17.2.2\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ead1aa518d53a3793a631ca7fb43f29e\firebase-ml-vision-24.0.1\AndroidManifest.xml:2:1-18:12
 MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\99c84490966402b388c990a55c8f557b\play-services-auth-base-17.0.0\AndroidManifest.xml:2:1-7:12
@@ -33,25 +44,34 @@ MERGED from [com.google.android.gms:play-services-stats:17.0.0] C:\Users\admin\.
 MERGED from [com.google.firebase:firebase-measurement-connector:18.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\7f660653db4037cea705f2329ab6a972\firebase-measurement-connector-18.0.0\AndroidManifest.xml:17:1-25:12
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dd138348798dea0ac7f9eaf2bc1bfece\play-services-ads-identifier-17.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d31b425538ccf018d5e6492ed89005d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.github.yalantis:ucrop:2.2.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3a7cc257d4834426bdf1db2eea34b460\ucrop-2.2.5\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f28ec38a8e96c2e45fef235e085659cc\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7e80ada1653544e3c54a57d4677af7a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ff3ccb31f4df291375de462f1e521d98\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\586b960313f38f7be39b355afe41dbc2\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dea8bfb453b8fd887799972b8d776909\loader-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d666021c2157e78f4964020cb90e2acb\activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0-rc01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\43c00605b9c847d6266b0a3473941cb7\transition-1.2.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0ac6c204107191f2e7a455c3dbaace71\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\890eb7f36bf83c7d9e99c33658d412de\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6dd54d03efa643e412c8216a55131921\appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5abf3b69ee9b49e1a6ab92d8e02fe5bf\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\91c4a58c2eda4b314d4621d214d08c44\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96ae7b809342492cd4828827073cb152\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\89296b996329c4d60a0b372b563f77bf\savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6e9201a4f5b5fbe9ec33d3d731a410c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16ca23f20530544a8f9e4f6b65379b7b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\325322f29793a1c958d09ca9ecfa1c4a\exifinterface-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c6d7e24e5aa09c9f08d37228d92c22be\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e4922b1fa4c5271cc04295224d6e5580\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0ded19abf105fc75844dc7f8b14c0a0f\exifinterface-1.1.0-beta01\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5e38ca2bd39f563dc72554fcc9d44a6a\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ea171906b2a14d5653eef06412ee0e32\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b959391f1b9d5ab8fb021ef6000c24df\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\61db4fa15d352a19597b369142e66dd8\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0fd3e178beaee37ac856b056c942cb72\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d913ef52f9caac024860e1f5e7944eed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
@@ -61,16 +81,20 @@ INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml:1:1-
 		INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
 		INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml
-		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-47:12
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:1-59:12
 		INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:1:11-69
 application
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:8:5-46:19
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:8:5-55:19
+MERGED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
+MERGED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-20:19
+MERGED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
+MERGED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-12:19
 MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-13:19
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\959367868b5c78124a943cd7a9132b4c\firebase-analytics-17.2.2\AndroidManifest.xml:7:5-20
@@ -130,7 +154,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\ad
 	android:name
 		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:9:9-57
 activity#com.example.app.MainActivity
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:12:9-40:20
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:12:9-41:20
 	android:launchMode
 		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:14:13-43
 	android:hardwareAccelerated
@@ -156,31 +180,79 @@ ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:32:13-35
 	android:name
 		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:33:15-79
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:36:13-39:29
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:37:17-68
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:38:17-68
 	android:name
-		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:38:17-76
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:39:17-76
 	android:name
-		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:38:27-74
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:39:27-74
 meta-data#flutterEmbedding
-ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:43:9-45:33
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:45:9-47:33
 	android:value
-		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:45:13-30
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:47:13-30
 	android:name
-		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:44:13-44
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:46:13-44
+meta-data#com.google.firebase.ml.vision.DEPENDENCIES
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:48:13-50:35
+	android:value
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:50:13-32
+	android:name
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:49:13-70
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:51:9-54:71
+	android:screenOrientation
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:53:13-49
+	android:theme
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:54:13-69
+	android:name
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:52:13-60
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:56:5-72
+	android:name
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:56:22-69
+uses-permission#android.permission.WRITE_CONTACTS
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:57:5-73
+	android:name
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:57:22-70
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:58:5-79
+	android:name
+		ADDED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml:58:22-76
 uses-sdk
 INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\CardVisitApp\app\android\app\src\main\AndroidManifest.xml
-MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:contacts_service] D:\CardVisitApp\app\build\contacts_service\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:contacts_service] D:\CardVisitApp\app\build\contacts_service\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:device_info] D:\CardVisitApp\app\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:device_info] D:\CardVisitApp\app\build\device_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:get_version] D:\CardVisitApp\app\build\get_version\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:get_version] D:\CardVisitApp\app\build\get_version\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:package_info] D:\CardVisitApp\app\build\package_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:package_info] D:\CardVisitApp\app\build\package_info\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] D:\CardVisitApp\app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_plugin_android_lifecycle] D:\CardVisitApp\app\build\flutter_plugin_android_lifecycle\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] D:\CardVisitApp\app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider] D:\CardVisitApp\app\build\path_provider\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] D:\CardVisitApp\app\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:image_cropper] D:\CardVisitApp\app\build\image_cropper\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] D:\CardVisitApp\app\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:permission_handler] D:\CardVisitApp\app\build\permission_handler\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\CardVisitApp\app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:shared_preferences] D:\CardVisitApp\app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:share] D:\CardVisitApp\app\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:share] D:\CardVisitApp\app\build\share\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\959367868b5c78124a943cd7a9132b4c\firebase-analytics-17.2.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics:17.2.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\959367868b5c78124a943cd7a9132b4c\firebase-analytics-17.2.2\AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ead1aa518d53a3793a631ca7fb43f29e\firebase-ml-vision-24.0.1\AndroidManifest.xml:6:5-44
@@ -231,6 +303,10 @@ MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\User
 MERGED from [com.google.android.gms:play-services-ads-identifier:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dd138348798dea0ac7f9eaf2bc1bfece\play-services-ads-identifier-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d31b425538ccf018d5e6492ed89005d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d31b425538ccf018d5e6492ed89005d1\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.yalantis:ucrop:2.2.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3a7cc257d4834426bdf1db2eea34b460\ucrop-2.2.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.5] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\3a7cc257d4834426bdf1db2eea34b460\ucrop-2.2.5\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f28ec38a8e96c2e45fef235e085659cc\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\f28ec38a8e96c2e45fef235e085659cc\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7e80ada1653544e3c54a57d4677af7a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\a7e80ada1653544e3c54a57d4677af7a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ff3ccb31f4df291375de462f1e521d98\viewpager-1.0.0\AndroidManifest.xml:20:5-44
@@ -241,8 +317,18 @@ MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transfo
 MERGED from [androidx.loader:loader:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\dea8bfb453b8fd887799972b8d776909\loader-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d666021c2157e78f4964020cb90e2acb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.activity:activity:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d666021c2157e78f4964020cb90e2acb\activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0-rc01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\43c00605b9c847d6266b0a3473941cb7\transition-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0-rc01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\43c00605b9c847d6266b0a3473941cb7\transition-1.2.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0ac6c204107191f2e7a455c3dbaace71\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0ac6c204107191f2e7a455c3dbaace71\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\890eb7f36bf83c7d9e99c33658d412de\customview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\890eb7f36bf83c7d9e99c33658d412de\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6dd54d03efa643e412c8216a55131921\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6dd54d03efa643e412c8216a55131921\appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5abf3b69ee9b49e1a6ab92d8e02fe5bf\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5abf3b69ee9b49e1a6ab92d8e02fe5bf\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\91c4a58c2eda4b314d4621d214d08c44\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\91c4a58c2eda4b314d4621d214d08c44\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0a88e15c27fe8f45486868f55d363bed\core-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\96ae7b809342492cd4828827073cb152\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
@@ -253,14 +339,14 @@ MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\6e9201a4f5b5fbe9ec33d3d731a410c9\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16ca23f20530544a8f9e4f6b65379b7b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\16ca23f20530544a8f9e4f6b65379b7b\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\325322f29793a1c958d09ca9ecfa1c4a\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.exifinterface:exifinterface:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\325322f29793a1c958d09ca9ecfa1c4a\exifinterface-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c6d7e24e5aa09c9f08d37228d92c22be\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\c6d7e24e5aa09c9f08d37228d92c22be\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ffc87729ce788885345ff344302c6fd4\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e4922b1fa4c5271cc04295224d6e5580\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
 MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\e4922b1fa4c5271cc04295224d6e5580\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0ded19abf105fc75844dc7f8b14c0a0f\exifinterface-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.1.0-beta01] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0ded19abf105fc75844dc7f8b14c0a0f\exifinterface-1.1.0-beta01\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5e38ca2bd39f563dc72554fcc9d44a6a\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\5e38ca2bd39f563dc72554fcc9d44a6a\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ea171906b2a14d5653eef06412ee0e32\documentfile-1.0.0\AndroidManifest.xml:20:5-44
@@ -269,6 +355,10 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\b959391f1b9d5ab8fb021ef6000c24df\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\61db4fa15d352a19597b369142e66dd8\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\61db4fa15d352a19597b369142e66dd8\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0fd3e178beaee37ac856b056c942cb72\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\0fd3e178beaee37ac856b056c942cb72\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d913ef52f9caac024860e1f5e7944eed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\d913ef52f9caac024860e1f5e7944eed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml
 INJECTED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml
 	android:targetSdkVersion
@@ -291,6 +381,46 @@ MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:
 MERGED from [com.google.android.gms:play-services-measurement-sdk-api:17.2.2] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\149ed899d068dddcb29d639ada27800a\play-services-measurement-sdk-api-17.2.2\AndroidManifest.xml:23:5-67
 	android:name
 		ADDED from D:\CardVisitApp\app\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+	android:name
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
+ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+	android:grantUriPermissions
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+	android:authorities
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+	android:exported
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+	android:name
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+	android:resource
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+	android:name
+		ADDED from [:image_picker] D:\CardVisitApp\app\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+activity#io.flutter.plugins.urllauncher.WebViewActivity
+ADDED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+	android:exported
+		ADDED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+	android:theme
+		ADDED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+	android:name
+		ADDED from [:url_launcher] D:\CardVisitApp\app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+uses-permission#android.permission.CAMERA
+ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
+	android:name
+		ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
 service#com.google.firebase.components.ComponentDiscoveryService
 ADDED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
 MERGED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ead1aa518d53a3793a631ca7fb43f29e\firebase-ml-vision-24.0.1\AndroidManifest.xml:9:9-15:19
@@ -317,14 +447,6 @@ ADDED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\in
 		ADDED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:11:17-82
 	android:name
 		ADDED from [:firebase_ml_vision] D:\CardVisitApp\app\build\firebase_ml_vision\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-126
-uses-permission#android.permission.CAMERA
-ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-65
-	android:name
-		ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-62
-uses-permission#android.permission.RECORD_AUDIO
-ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-71
-	android:name
-		ADDED from [:camera] D:\CardVisitApp\app\build\camera\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-68
 meta-data#com.google.firebase.components:com.google.firebase.ml.vision.VisionRegistrar
 ADDED from [com.google.firebase:firebase-ml-vision:24.0.1] C:\Users\admin\.gradle\caches\transforms-2\files-2.1\ead1aa518d53a3793a631ca7fb43f29e\firebase-ml-vision-24.0.1\AndroidManifest.xml:12:13-14:85
 	android:value

@@ -1,9 +1,13 @@
 import 'dart:io';
+
 import 'package:app/DetailScreen.dart';
+//import 'package:app/DetailTextScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:camera/camera.dart';
 import 'package:intl/intl.dart';
 import 'package:path_provider/path_provider.dart';
+
+
 List<CameraDescription> cameras = [];
 class CameraScreen extends StatefulWidget {
   @override
@@ -72,7 +76,7 @@ class _CameraScreenState extends State<CameraScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Scan business card', style: TextStyle(fontWeight: FontWeight.bold),),
+        title: Text('Start Scan', style: TextStyle(fontWeight: FontWeight.bold),),
       ),
       body: _controller.value.isInitialized
           ? Stack(
@@ -82,12 +86,14 @@ class _CameraScreenState extends State<CameraScreen> {
                   padding: const EdgeInsets.all(20.0),
                   child: Container(
                     alignment: Alignment.bottomCenter,
-                    child: RaisedButton.icon(
+                    child:
+                     RaisedButton.icon(
                       icon: Icon(Icons.camera_alt),
                       label: Text("Click"),
                       onPressed: () async {
                         await _takePicture().then((String path) {
                           if (path != null) {
+                            
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -96,10 +102,13 @@ class _CameraScreenState extends State<CameraScreen> {
                             );
                           }
                         });
+                        
                       },
-                    ),
+                    ), 
+                  
                   ),
-                )
+                ),
+                
               ],
             )
           : Container(

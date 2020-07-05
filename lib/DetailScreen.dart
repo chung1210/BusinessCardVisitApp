@@ -3,6 +3,10 @@ import 'package:firebase_ml_vision/firebase_ml_vision.dart';
 import 'dart:io';
 import 'dart:ui';
 import 'dart:async';
+import 'package:permission_handler/permission_handler.dart';
+import 'package:contacts_service/contacts_service.dart';
+import 'package:commons/commons.dart';
+//import 'package:contacts_app/contactsPage.dart';
 
 class DetailScreen extends StatefulWidget {
   final String imagePath;
@@ -19,7 +23,6 @@ class _DetailScreenState extends State<DetailScreen> {
 
   Size _imageSize;
   List<TextElement> _elements = [];
-  String recognizedText = "Loading ...";
   String recognizedTextSDT = "Loading ... ";
   void _initializeVision() async {
     final File imageFile = File(path);
@@ -37,23 +40,16 @@ class _DetailScreenState extends State<DetailScreen> {
     final VisionText visionText =
         await textRecognizer.processImage(visionImage);
 
-    String pattern =
-        r"^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,253}[a-zA-Z0-9])?)*$";
-    RegExp regEx = RegExp(pattern);
+    String patternSDT = "^0[0-9\s.-]{9,13}";
 
-  String patternSDT = r"^0[0-9\s.-]{9,14}$";
-   
-   // String patternSDT = r'[!@#<>?":_`~;[\]\\|=+)(*&^%\s-]';
     RegExp regExSDT = RegExp(patternSDT);
 
-    String mailAddress = "";
-    String locSDT= "";
+    String locSDT = "";
 
     for (TextBlock block in visionText.blocks) {
       for (TextLine line in block.lines) {
-        if (regEx.hasMatch(line.text)) {
-          mailAddress += line.text + '\n';
-         //locSDT += line.text + '\n';
+        if (regExSDT.hasMatch(line.text)) {
+          locSDT += line.text + '\n';
           for (TextElement element in line.elements) {
             _elements.add(element);
           }
@@ -61,26 +57,11 @@ class _DetailScreenState extends State<DetailScreen> {
       }
     }
 
-    for (TextBlock blockk in visionText.blocks) {
-      for (TextLine linee in blockk.lines) {
-        if (regExSDT.hasMatch(linee.text)) {
-          //mailAddress += linee.text + '\n';
-         locSDT += linee.text + '\n';
-          for (TextElement elementt in linee.elements) {
-            _elements.add(elementt);
-          }
-        }
-      }
-    }
-    
-    
     if (this.mounted) {
       setState(() {
-        recognizedText = mailAddress;
         recognizedTextSDT = locSDT;
       });
     }
-    
   }
 
   Future<void> _getImageSize(File imageFile) async {
@@ -108,11 +89,41 @@ class _DetailScreenState extends State<DetailScreen> {
     super.initState();
   }
 
+  Future<void> saveContactInPhone() async {
+    try {
+      PermissionStatus permission = await Permission.contacts.status;
+
+      if (permission != PermissionStatus.granted) {
+        await Permission.contacts.request();
+        PermissionStatus permission = await Permission.contacts.status;
+
+        if (permission == PermissionStatus.granted) {
+          Contact newContact = new Contact();
+
+          newContact.phones = [Item(label: "mobile", value: recognizedTextSDT)];
+          await ContactsService.addContact(newContact);
+        } else {}
+      } else {
+        Contact newContact = new Contact();
+
+        newContact.phones = [Item(label: "mobile", value: recognizedTextSDT)];
+
+        await ContactsService.addContact(newContact);
+      }
+      print("object");
+    } catch (e) {
+      print(e);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Scan business card', style: TextStyle(fontWeight: FontWeight.bold),),
+        title: Text(
+          'Scan business card',
+          style: TextStyle(fontWeight: FontWeight.bold),
+        ),
       ),
       body: _imageSize != null
           ? Stack(
@@ -148,7 +159,7 @@ class _DetailScreenState extends State<DetailScreen> {
                           Padding(
                             padding: const EdgeInsets.only(bottom: 8.0),
                             child: Text(
-                              "Email:",
+                              "Phone number:",
                               style: TextStyle(
                                 fontSize: 15,
                                 fontWeight: FontWeight.bold,
@@ -158,31 +169,35 @@ class _DetailScreenState extends State<DetailScreen> {
                           Container(
                             height: 60,
                             child: SingleChildScrollView(
-                              child: Text(
-                                recognizedText,
-                                
-                              ),
+                              child: Text(recognizedTextSDT),
                             ),
                           ),
-                          SizedBox(height: 12.0,),
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 8.0),
-                            child: Text(
-                              "Số điện thoại:",
-                              style: TextStyle(
-                                fontSize: 15,
-                                fontWeight: FontWeight.bold,
+                          FittedBox(
+                            child: GestureDetector(
+                              onTap: () {
+                                saveContactInPhone();
+                                successDialog(context, "Success");
+                              },
+                              child: Container(
+                                margin: EdgeInsets.only(bottom: 25),
+                                padding: EdgeInsets.symmetric(
+                                    horizontal: 26, vertical: 16),
+                                decoration: BoxDecoration(
+                                  borderRadius: BorderRadius.circular(25),
+                                  color: Color(0xFFFFBD73),
+                                ),
+                                child: Row(children: <Widget>[
+                                  Text("SAVE",
+                                      style: Theme.of(context)
+                                          .textTheme
+                                          .button
+                                          .copyWith(
+                                              color: Colors.black,
+                                              fontWeight: FontWeight.bold)),
+                                ]),
                               ),
                             ),
-                          ),
-                          Container(
-                            height: 60,
-                            child: SingleChildScrollView(
-                              child: Text(
-                               recognizedTextSDT
-                              ),
-                            ),
-                          ),
+                          )
                         ],
                       ),
                     ),
